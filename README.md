@@ -10,3 +10,6 @@ Anaerobic Treshold
 - Eq_CO2
 - Ventilation (second breakpoint)
 
+Correction Strategy
+- MRT
+  
