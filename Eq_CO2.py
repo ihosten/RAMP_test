@@ -29,6 +29,7 @@ for cluster in range(2):
 ax.set_xlabel('Power (Watt)')
 ax.set_ylabel('Eq CO2 (VE/VCO2)')
 
+#AnT can be visualized after visual inspection of the linear regressions
 # Draw dashed red line at x=260
 plt.axvline(x=230, color='red', linestyle='--', label='AnT')
 
