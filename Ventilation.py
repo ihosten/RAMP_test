@@ -15,7 +15,7 @@ dot_size = 50
 sns.scatterplot(x='power', y='ventilation', data=ramp_file, color='blue', label='Ventilation', s=dot_size)
 
 # Perform clustering on the data
-X = ramp_file[['power', 'eq_o2']]
+X = ramp_file[['power', 'ventilation']]
 kmeans = KMeans(n_clusters=3, random_state=0).fit(X)
 ramp_file['cluster'] = kmeans.labels_
 
@@ -30,12 +30,11 @@ for cluster in range(3):
 ax.set_xlabel('Power (Watt)', fontweight='bold')
 ax.set_ylabel('VE', fontweight='bold')
 
+#AeT and AnT can be visualized after inspection of the regression analysis
 # Draw dashed green line at x=170
 plt.axvline(x=160, color='green', linestyle='--', label='Aerobic Treshold')
-
 # Draw dashed red line at x=260
-plt.axvline(x=250, color='red', linestyle='--', label='Anaerobi Treshold')
-
+plt.axvline(x=250, color='red', linestyle='--', label='Anaerobic Treshold')
 # Add ticks for the lines
 ticks = [160, 250]
 
