@@ -1,0 +1,112 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  power   R-squared:                       0.909
+Model:                            OLS   Adj. R-squared:                  0.905
+Method:                 Least Squares   F-statistic:                     227.7
+Date:                Wed, 10 Apr 2024   Prob (F-statistic):           1.68e-46
+Time:                        15:54:25   Log-Likelihood:                -21.075
+No. Observations:                  96   AIC:                             52.15
+Df Residuals:                      91   BIC:                             64.97
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+1              1.2104      0.109     11.059      0.000       0.993       1.428
+3             -0.6591      0.175     -3.772      0.000      -1.006      -0.312
+4             -0.6940      0.151     -4.583      0.000      -0.995      -0.393
+set            0.0030      0.028      0.109      0.913      -0.052       0.058
+rep           -0.0787      0.009     -8.599      0.000      -0.097      -0.061
+==============================================================================
+Omnibus:                        1.922   Durbin-Watson:                   1.550
+Prob(Omnibus):                  0.383   Jarque-Bera (JB):                1.761
+Skew:                          -0.224   Prob(JB):                        0.415
+Kurtosis:                       2.511   Cond. No.                         61.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               velocity   R-squared:                       0.920
+Model:                            OLS   Adj. R-squared:                  0.916
+Method:                 Least Squares   F-statistic:                     260.2
+Date:                Wed, 10 Apr 2024   Prob (F-statistic):           6.64e-49
+Time:                        15:54:25   Log-Likelihood:                -15.225
+No. Observations:                  96   AIC:                             40.45
+Df Residuals:                      91   BIC:                             53.27
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+1              1.1416      0.103     11.086      0.000       0.937       1.346
+3             -0.7172      0.164     -4.362      0.000      -1.044      -0.391
+4             -0.8300      0.142     -5.826      0.000      -1.113      -0.547
+set            0.0121      0.026      0.467      0.642      -0.039       0.064
+rep           -0.0708      0.009     -8.223      0.000      -0.088      -0.054
+==============================================================================
+Omnibus:                        2.398   Durbin-Watson:                   1.501
+Prob(Omnibus):                  0.301   Jarque-Bera (JB):                2.413
+Skew:                          -0.356   Prob(JB):                        0.299
+Kurtosis:                       2.692   Cond. No.                         61.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  force   R-squared:                       0.182
+Model:                            OLS   Adj. R-squared:                  0.146
+Method:                 Least Squares   F-statistic:                     5.073
+Date:                Wed, 10 Apr 2024   Prob (F-statistic):           0.000978
+Time:                        15:54:25   Log-Likelihood:                -126.56
+No. Observations:                  96   AIC:                             263.1
+Df Residuals:                      91   BIC:                             275.9
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+1              0.3087      0.328      0.940      0.350      -0.344       0.961
+3             -0.5222      0.524     -0.996      0.322      -1.564       0.519
+4             -0.6596      0.454     -1.452      0.150      -1.562       0.243
+set            0.1065      0.083      1.287      0.201      -0.058       0.271
+rep           -0.0537      0.027     -1.955      0.054      -0.108       0.001
+==============================================================================
+Omnibus:                       11.126   Durbin-Watson:                   1.903
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               11.367
+Skew:                           0.798   Prob(JB):                      0.00340
+Kurtosis:                       3.543   Cond. No.                         61.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           displacement   R-squared:                       0.908
+Model:                            OLS   Adj. R-squared:                  0.904
+Method:                 Least Squares   F-statistic:                     223.9
+Date:                Wed, 10 Apr 2024   Prob (F-statistic):           3.36e-46
+Time:                        15:54:25   Log-Likelihood:                -21.806
+No. Observations:                  96   AIC:                             53.61
+Df Residuals:                      91   BIC:                             66.43
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+1              0.7007      0.110      6.353      0.000       0.482       0.920
+3             -1.0831      0.176     -6.151      0.000      -1.433      -0.733
+4             -1.4582      0.153     -9.557      0.000      -1.761      -1.155
+set            0.0542      0.028      1.949      0.054      -0.001       0.109
+rep           -0.0207      0.009     -2.240      0.028      -0.039      -0.002
+==============================================================================
+Omnibus:                        7.990   Durbin-Watson:                   1.418
+Prob(Omnibus):                  0.018   Jarque-Bera (JB):                7.873
+Skew:                          -0.694   Prob(JB):                       0.0195
+Kurtosis:                       3.199   Cond. No.                         61.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           displacement   R-squared:                       0.096
+Model:                            OLS   Adj. R-squared:                  0.093
+Method:                 Least Squares   F-statistic:                     25.29
+Date:                Wed, 10 Apr 2024   Prob (F-statistic):           3.68e-11
+Time:                        14:25:43   Log-Likelihood:                -652.66
+No. Observations:                 477   AIC:                             1311.
+Df Residuals:                     474   BIC:                             1324.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      0.8398      0.127      6.604      0.000       0.590       1.090
+set           -0.0836      0.019     -4.374      0.000      -0.121      -0.046
+rep           -0.0719      0.013     -5.664      0.000      -0.097      -0.047
+==============================================================================
+Omnibus:                       14.046   Durbin-Watson:                   1.670
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                8.616
+Skew:                           0.170   Prob(JB):                       0.0135
+Kurtosis:                       2.436   Cond. No.                         25.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

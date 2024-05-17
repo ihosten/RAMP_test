@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  force   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.008
+Method:                 Least Squares   F-statistic:                     2.952
+Date:                Wed, 10 Apr 2024   Prob (F-statistic):             0.0532
+Time:                        14:25:43   Log-Likelihood:                -673.88
+No. Observations:                 477   AIC:                             1354.
+Df Residuals:                     474   BIC:                             1366.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      0.1091      0.133      0.821      0.412      -0.152       0.370
+set            0.0185      0.020      0.925      0.355      -0.021       0.058
+rep           -0.0297      0.013     -2.235      0.026      -0.056      -0.004
+==============================================================================
+Omnibus:                       80.041   Durbin-Watson:                   2.591
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              129.583
+Skew:                           1.032   Prob(JB):                     7.27e-29
+Kurtosis:                       4.503   Cond. No.                         25.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
