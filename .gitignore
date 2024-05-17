@@ -4,3 +4,5 @@ ian_test_code/
 *.csv
 *.json
 hr_data/
+*.txt
+*.log
