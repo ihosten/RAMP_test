@@ -1,5 +1,5 @@
 # RAMP_test
-Scrips to analyze gas echange data from a RAMP test
+Scrips to analyze gas exchange data from a RAMP test
 The breakpoints in the gas exchage curves allow to identify exercise tresholds
 
 Aerobic treshold:
